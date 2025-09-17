@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createTaskElement(taskText) {
         const li = document.createElement('li');
         li.textContent = taskText;
-
+        
         const deleteBtn = document.createElement('button');
         deleteBtn.textContent = 'Eliminar';
         deleteBtn.addEventListener('click', () => {
